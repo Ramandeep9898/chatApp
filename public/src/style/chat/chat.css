@@ -1,0 +1,25 @@
+.message {
+  border: 1px solid #111827;
+  width: max-content;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.chat-container {
+  padding: 24px 36px;
+}
+.message-left {
+  border: 1px solid #111827;
+  width: max-content;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  position: relative;
+  right: 0px;
+}
+.send {
+  display: flex;
+  justify-content: flex-end;
+}

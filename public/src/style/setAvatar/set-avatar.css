@@ -1,0 +1,27 @@
+.set-avatar-container {
+  background-color: var(--white);
+  height: 100vh;
+  flex-direction: column;
+}
+.set-avatar-img {
+  width: 130px;
+}
+.selected-avatar {
+  border-radius: 50%;
+  padding: 5px;
+  border: 5px solid green;
+  cursor: pointer;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-row {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.loader {
+  width: 100px;
+}
